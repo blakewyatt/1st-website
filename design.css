@@ -1,0 +1,100 @@
+#gif
+{
+    position: absolute;
+    left: 500px;
+    border-style: solid;
+    border-color: crimson;
+    border-width: 5px;
+    border-radius: 25px;
+
+}
+
+#main
+{
+    background-image: url("images/deadpool background.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#intro
+{
+    color: crimson;
+    position: relative;
+    left: 5px;
+    font-size: 25px;
+}
+
+#linkHeader
+{
+    color: crimson;
+    position: relative;
+    left: 5px;
+    font-size: 35px;
+}
+
+#links
+{
+    color: white;
+    position: relative;
+    left: 5px;
+    font-size: 20px;
+}
+
+#powersHeader
+{
+    color: crimson;
+    position: relative;
+    left: 5px;
+    font-size: 35px;
+}
+
+#powers
+{
+    color: white;
+    position: relative;
+    left: 5px;
+    font-size: 25px;
+}
+
+#badGuysHeader
+{
+    color: crimson;
+    position: relative;
+    left: 5px;
+    font-size: 35px;
+}
+
+#badGuys
+{
+    color: white;
+    position: relative;
+    left: 5px;
+    font-size: 25px;
+}
+
+#goodGuysHeader
+{
+    color: crimson;
+    position: relative;
+    left: 5px;
+    font-size: 35px;
+}
+
+#goodGuys
+{
+    color: white;
+    position: relative;
+    left: 5px;
+    font-size: 25px;
+}
+
+#spideyPool
+{
+    position: relative;
+    left: 5px;
+    border-style: solid;
+    border-color: crimson;
+    border-width: 5px;
+    border-radius: 25px;
+}

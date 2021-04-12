@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+
+<html>
+    <!-- the header contains info about the page -->
+    <head>
+        <title>Blake's Page</title>
+        <link rel = "styleSheet" href = "design.css">
+    </head>
+
+    <!-- the body contains what will be shown in the browser window -->
+    <body id = "main">
+        <img src = "images/Deadpool gif.gif" id = "gif" alt = "Deadpool" height="280" width="440" />
+
+        <p id = "intro">
+            Welcome to Deadpool's Personal Bio <br>
+            Made by ME! DEADPOOL! <br>
+            <br>
+            Yea, yea I know shocking right?<br>
+            Now hit the music and check out<br>
+            the rest of the page!<br>
+            <br>
+            <audio id = "themeMusic" controls> 
+                <source src = "audio/DMX.mp3" type="audio/mp3">
+            </audio>
+            <br>
+        </p>
+
+        <script>
+            var music = document.getElementById("themeMusic");
+            music.volume = 0.1;
+        </script>
+
+        <p id = "linkHeader">Quick access to the stuff:</p>
+        <ul id = "links">
+            <li><a href="#powersHeader">My Awesome Powers</a><br/></li>  
+            <li><a href="#badGuysHeader">The Bad Guys</a><br/></li>  
+            <li><a href="#goodGuysHeader">The Good Guys</a><br /><br/></li>  
+        </ul>
+
+        <p id = "powersHeader">Tha Powersss:</p>
+        <p id = "powers">
+            Let's be honest, my greatest super powers are wit and charm.<br/> 
+            But if you want a more literal interpretation of my superhuman abilities,<br/> 
+            I have a healing factor, which allows me to recover from grave injuries by regenerating<br/>
+            entire body parts. I'm also an expert marksman and hand-to-hand combatant.<br/>
+            It's true-I'm basically a ninja. And I speak a bunch of languages,<br/>
+            like Japanese, German, and Spanish, but most of the time I pretend I don't.<br/>
+            Oh! And I have the ability to harness continuity errors and break the fourth wall.<br/>
+            Kinda like right now.<br/>
+        </p>
+
+        <p id = "badGuysHeader">Da Baddies:</p>
+        <p id = "badGuys">
+            First, there's my work associates, like Hammerhead, the Mercs for Money,<br/>
+            Wilson Fisk, Bullseye, Tolliver, Taskmaster, and Weasel.<br/>
+            Then there's the people who have always hated me: T-Ray, the Boss, Madcap,<br/>
+            Dr. Emrys Killebrew, Wizard, Typhoid, Sabretooth, and Thanos.<br/>
+            Then there's the jilted ex-lovers: Death, Copycat, Anastasia, and Shiklah.<br/>
+        </p>
+
+        <p id = "goodGuysHeader">My Friends:</p>
+        <p id = "goodGuys">
+            And then we have the good guys who, generally, wouldn't mind if<br/>
+            Kraven the Hunter turned my skin into a cummerbund. This list includes<br/>
+            the X-Men, the Avengers, X-Force, S.H.I.E.L.D., the Secret Defenders,<br/>
+            the Great Lakes Avengers, Cable, Siryn, Spider-Man, and of course my<br/>
+            closest friend, Blind Al. (But spidey is actually my bestie. Just don't tell Al.)<br/>
+        </p>
+
+        <img src = "images/spidey pool.png" id = "spideyPool" height="460" width="440" />
+
+    </body>
+     
+
+</html>
